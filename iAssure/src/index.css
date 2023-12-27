@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  box-shadow: 1px 1px 3px 3px rgb(61, 60, 60, 0.4);
+}
+
+header .logo{
+  font-size: 30px;
+  Color: #133a75;
+  font-weight: bold;
+  text-indent: -110px;
+
+}
+
+header .display-menu{
+  display:flex;
+  align-items: right;
+  justify-content: space-around;
+  
+}
+.display-menu .menu{
+  padding: 0 15px;
+  text-decoration: none;
+  color:#333;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight:bold;
+  
+}
+.contact{
+  background-image: url('bg.jpg');
+  height: 260px;
+  color:#e2eaf6;
+}
+.content{
+  text-align: left;
+  margin-left:170px;
+
+ 
+  padding: 30px;
+  
+}
+.content-r{
+  text-align: right;
+}
+
+.boldit{
+  font-weight: bold;
+  font-size: 30px;
+  color: #e2eaf6;
+}
+
+
+
+.middle{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:30px 8%;
+}
+
+.col-left{
+  width: 50%;
+  float:left;
+}
+.pad{
+  padding-left: 50px 50px 50px 50px;
+}
+.help{
+  color:#e2eaf6;
+  width:50%;
+  height:auto;
+  border-radius: 10px;
+  background-color: #1a73e8;
+  padding: 20px 20px 20px 20px;
+  
+}
+.col-right{
+  
+width:auto;
+  
+  
+}
+.inp{
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.map{
+ overflow: hidden;
+ 
+ padding-bottom: 30%;
+ position:relative;
+
+}
+.map iframe{
+  border: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position:absolute;
+}
+
+.footer{
+  
+  display: flex;
+  background-color:#1a73e8 ;
+  width: 100%;
+  padding: 40px 40px 40px 40px;
+  color:#e2eaf6;
+}
+
+.follow{
+  margin-left: 60px;
+  width: 20%;
+}
+.oservices{
+  width:20%;
+}
+.pservices{
+  width:20%;
+}
+.touch{
+  width:20%;
+}
+
+.end{
+  display: flex;
+  background-color: #17478d;
+  color:#e2eaf6;
+}
+.left{
+  text-align: left;
+  margin-left: 30px;
+  width: 50%;
+}
+.right{
+  text-align: right;
+  margin-right: 30px;
+  width: 50%;
+}
+.start{
+  display: flex;
+  background-color: #17478d;
+  color:#e2eaf6;
+}
